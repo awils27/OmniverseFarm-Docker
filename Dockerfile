@@ -61,4 +61,4 @@ USER ove_user
 RUN chmod +x /opt/ove/ov-farm-queue/queue.sh
 
 # Set the default command to run when the container starts
-CMD ["/opt/ove/queue.sh"]
+CMD ["/opt/ove/ov-farm-queue/queue.sh"]
